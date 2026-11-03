@@ -1,0 +1,1 @@
+document.querySelector('.form')?.addEventListener('submit', event => { event.preventDefault(); const note=document.querySelector('.form-note'); note.textContent='Dank u. Uw belangstelling is met zorg ontvangen.'; });
